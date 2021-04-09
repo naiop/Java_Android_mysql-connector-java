@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CoreActivity">
+
+
+    <Button
+    android:id="@+id/vbtn"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="@drawable/shape_btn"
+    android:text="Test"
+    />
+    <Button
+        android:id="@+id/ip"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_btn"
+        android:text="Test"
+        />
+    <TextView
+        android:id="@+id/vtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/getset"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_btn"
+        android:text="Test"
+        />
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/getbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_btn"
+        android:text="Test"
+        />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/gettv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
